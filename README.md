@@ -35,12 +35,9 @@ In the root folder of your local repository, do the following:
 
 
 
-## Getting Started
-### Build your first model
-1. Create a new SQL file in the models directory `model/your_model.sql`
-2. Execute `dbt run --select your_model` to only run your model
 
-### Resources
+
+## Resources
 - Learn more about dbt in the [docs](https://docs.getdbt.com/docs/introduction)
 - Explore the [list of dbt commands](https://docs.getdbt.com/reference/commands/build)
 - Read this [detailed guide](https://discourse.getdbt.com/t/how-we-structure-our-dbt-projects/355) on dbt's model structuring best practices
