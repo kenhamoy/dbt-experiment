@@ -1,4 +1,6 @@
 # dbt-experiment
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 ## Requirements
 ### Setup `direnv`
@@ -10,7 +12,7 @@ Use `direnv` to load environment variables
 ### Setup dbt 
 1. Install dependencies
     ```sh
-    # Installs dbt-core and dbt-bigquery inside a virtual environment
+    # Install dbt-core and dbt-bigquery inside a virtual environment
     make deps
     ```
 
