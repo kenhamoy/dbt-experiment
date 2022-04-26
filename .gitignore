@@ -1,0 +1,8 @@
+dbt-core/
+target/
+dbt_packages/
+logs/
+venv/
+keyfile.json
+profiles.yml
+.user.yml
