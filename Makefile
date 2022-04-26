@@ -13,8 +13,3 @@ venv:
 .PHONY: clean
 clean: 
 	rm -rf venv
-
-
-.PHONY: dbt
-dbt: 
-	export DBT_PROFILES_DIR="./" && dbt init
