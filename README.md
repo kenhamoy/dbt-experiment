@@ -9,7 +9,7 @@ Use `direnv` to load environment variables
 1. Install `direnv` https://direnv.net/docs/installation.html
 2. Hook into your shell https://direnv.net/docs/hook.html
 
-### Setup dbt 
+### Setup `dbt`
 In the root folder of your local repository, do the following:
 1. Install dependencies
     ```sh
