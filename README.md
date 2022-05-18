@@ -16,14 +16,17 @@ In the root folder of your local repository, do the following:
     # Install dbt-core and dbt-bigquery inside a virtual environment
     make deps
     ```
-
-2. in **Bitwarden**, search for `ae-experiment BQ access service account key` and copy the JSON string, then paste it insde the `keyfile.json` file in your local repo
-
-3. Setup dbt profile
+2. Activate vitual environment and check if dbt is installed properly
     ```sh
     # Activate virtual environment
     source venv/bin/activate
 
+    # Check dbt version
+    dbt --version
+    ```
+
+3. Setup dbt profile
+    ```sh
     # Load environment variables
     direnv allow
 
