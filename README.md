@@ -17,7 +17,7 @@ In the root folder of your local repository, do the following:
     make deps
     ```
 
-2. in **Bitwarden**, search for `ae-experiment BQ access service account key` and copy the JSON string, then paste it insde the `keyfile.json` file
+2. in **Bitwarden**, search for `ae-experiment BQ access service account key` and copy the JSON string, then paste it insde the `keyfile.json` file in your local repo
 
 3. Setup dbt profile
     ```sh
